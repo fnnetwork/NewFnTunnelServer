@@ -20,7 +20,7 @@ dns:
   listen: 127.0.0.1:7874
   nameserver:
     - 8.8.8.8
-    - 8.4.4.8
+    - 8.8.4.4
   fallback:
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
