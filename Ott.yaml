@@ -29,16 +29,15 @@ dns:
     - 8.8.4.4
 proxies:
 - name: Re
-  server: secure-acs2ui-bk2-indmum-mumrdc.wibmo.com
-  port: 443
+  server: 104.18.35.85
+  port: 80
   type: vmess
   uuid: e7c1adbc-9c8b-4bd8-96d2-fdce72464048
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
-  servername: ottse2.electraop.space
   ws-opts:
     path: /vmessws
     headers:
