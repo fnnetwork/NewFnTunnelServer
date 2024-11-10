@@ -19,8 +19,8 @@ dns:
   enhanced-mode: redir-host
   listen: 127.0.0.1:7874
   nameserver:
-    - 8.8.8.8
-    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
   fallback:
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
@@ -29,15 +29,14 @@ dns:
     - 8.8.4.4
 proxies:
 - name: Akamai Technologies (IN)
-  server: secure-acs2ui-bk2-indmum-mumrdc.wibmo.com
-  port: 443
+  server: 104.18.35.85
+  port: 80
   type: vless
-  uuid: 196bd6e6-6fc5-44f9-a19f-a79213483144
+  uuid: 23d4a241-2d07-4053-96da-03374d2437cc
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
-  servername: akamai.fnnetworkofficial.com
   ws-opts:
     path: /ElectraOp
     headers:
