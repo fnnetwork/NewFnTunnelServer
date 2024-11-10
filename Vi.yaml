@@ -29,7 +29,7 @@ dns:
     - 8.8.4.4
 proxies:
 - name: Re
-  server: unpkg.com
+  server: 104.17.245.203
   port: 80
   type: vmess
   uuid: e4a26c6b-f8f2-4a20-8329-3a2f1bf47978
