@@ -29,7 +29,7 @@ dns:
     - 8.8.4.4
 proxies:
 - name: Google LLC (IN)
-  server: secure-acs2ui-bk2-indmum-mumrdc.wibmo.com
+  server: 104.18.35.85
   port: 443
   type: vless
   uuid: 7ad671a7-a8bc-4470-a2aa-72ce0a536432
