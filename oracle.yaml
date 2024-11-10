@@ -19,8 +19,8 @@ dns:
   enhanced-mode: redir-host
   listen: 127.0.0.1:7874
   nameserver:
-    - 8.8.8.8
-    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
   fallback:
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
@@ -29,15 +29,14 @@ dns:
     - 8.8.4.4
 proxies:
 - name: Oracle Corporation (IN)
-  server: secure-acs2ui-bk2-indmum-mumrdc.wibmo.com
-  port: 443
+  server: 104.18.35.85
+  port: 80
   type: vless
-  uuid: 2b3f1e38-6cac-41cd-809f-0db4588cfcb6
+  uuid: e46a6365-3f0f-4efc-8449-9cb4e846178a
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
-  servername: hyderabad.fnnetworkofficial.com
   ws-opts:
     path: /ElectraOp
     headers:
