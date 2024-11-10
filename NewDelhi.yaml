@@ -19,8 +19,8 @@ dns:
   enhanced-mode: redir-host
   listen: 127.0.0.1:7874
   nameserver:
-    - 8.8.8.8
-    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
   fallback:
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
@@ -29,15 +29,14 @@ dns:
     - 8.8.4.4
 proxies:
 - name: Tata Communications Limited (IN)
-  server: secure-acs2ui-bk2-indmum-mumrdc.wibmo.com
-  port: 443
+  server: 104.18.35.85
+  port: 80
   type: vless
-  uuid: 21c3d8c2-168e-4590-b33e-ef42ae8b8047
+  uuid: b1f55cca-79e5-49dc-932e-0eace4a05c10
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
-  servername: delhi.fnnetworkofficial.com
   ws-opts:
     path: /ElectraOp
     headers:
